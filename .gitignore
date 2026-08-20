@@ -1,0 +1,15 @@
+*.pyc
+*.jpg
+*.log
+*.bash
+*.sh
+
+**/check_*
+data/*
+logs/*
+cache_files/*
+
+SpatialBot3B
+recognize_anything
+
+.DS_Store
