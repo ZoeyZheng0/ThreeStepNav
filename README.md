@@ -1,6 +1,6 @@
 # ThreeStepNav
 
-Official implementation of **[Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation](https://arxiv.org/abs/2604.26946)**.
+Official implementation of **[Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation](https://proceedings.mlr.press/v300/zheng26b.html)** (AISTATS 2026). [[arXiv](https://arxiv.org/abs/2604.26946)]
 
 Zero-shot **Vision-and-Language Navigation (VLN)** agents powered by multimodal large language models still tend to drift off course, halt prematurely, and achieve low overall success rates. Three-Step Nav is a hierarchical global-local planner that counteracts these failures with a three-view protocol:
 
@@ -113,6 +113,24 @@ habitat_extensions/             # custom Habitat task, sensors, measures
 waypoint_prediction/            # candidate waypoint predictor (TRM)
 view_navigation.py              # Streamlit visualization dashboard
 data/                           # scenes, episodes, pretrained models
+```
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@InProceedings{pmlr-v300-zheng26b,
+  title     = {Three-Step Nav: A Hierarchical Global--Local Planner for Zero-Shot Vision-and-Language Navigation},
+  author    = {Zheng, Wanrong and Ge, Yunhao and Itti, Laurent},
+  booktitle = {Proceedings of The 29th International Conference on Artificial Intelligence and Statistics},
+  pages     = {4645--4653},
+  year      = {2026},
+  volume    = {300},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v300/zheng26b.html}
+}
 ```
 
 ## Acknowledgements
