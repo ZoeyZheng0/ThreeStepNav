@@ -1,6 +1,6 @@
 # ThreeStepNav
 
-Official implementation of **[Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation](https://proceedings.mlr.press/v300/zheng26b.html)** (AISTATS 2026). [[arXiv](https://arxiv.org/abs/2604.26946)]
+Official implementation of **Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation** (AISTATS 2026). [[paper](https://proceedings.mlr.press/v300/zheng26b.html)]
 
 Zero-shot **Vision-and-Language Navigation (VLN)** agents powered by multimodal large language models still tend to drift off course, halt prematurely, and achieve low overall success rates. Three-Step Nav is a hierarchical global-local planner that counteracts these failures with a three-view protocol:
 
